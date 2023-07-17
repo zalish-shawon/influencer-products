@@ -2,32 +2,44 @@
     nav {
         flex-direction: column;
         padding-left: 12px;
-        padding-right:0;
+        padding-right: 0;
         width: 90%;
     }
+
     .banner-container {
         flex-direction: column-reverse;
     }
+
     .banner-img {
         margin-right: 0;
     }
-   
+
     .banner-text {
         text-align: center;
     }
+
     .banner-text h1 {
         width: 100%;
         font-size: 1.9rem;
     }
+
     .banner-text p {
         width: 100%;
         margin-top: 0;
     }
+
     .nav-links li a {
         margin-right: 10px;
     }
+
     .nav-links {
         margin-right: 8px;
     }
-    
+
+    .sponsor-logos {
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
 }

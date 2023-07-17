@@ -66,3 +66,15 @@
     padding-bottom: 25px;
     padding-right: 5px;
  }
+ .sponsor-container {
+    max-width: 1160px;
+    margin: auto;
+ }
+ .sponsor-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px dotted;
+    border-radius: 5px;
+    padding: 45px;
+ }
