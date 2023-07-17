@@ -7,7 +7,7 @@
  }
     /* nav styles  */
  nav {
-     padding: 55px 75px 55px;
+     padding: 55px 104px 55px;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -29,7 +29,7 @@
  }
     /* banner section  */
  .banner-container {
-     width: 90%;
+     width:85%;
      margin: auto;
      display: flex;
      align-items: center;
@@ -39,6 +39,7 @@
      font-size: 3rem;
      font-weight: 700;
      color: #3A3A3A;
+     width: 90%;
  }
 
  .banner-text p {
@@ -53,4 +54,13 @@
      background: #E02C6D;
      border:none;
      color: #fff;
+ }
+ .banner-img {
+    margin-right: 88px;
+ }
+ .banner-img img {
+    height: 328px;
+    background-image: url('../images/Circledesign.svg');
+    background-size:cover ;
+    padding-bottom: 25px;
  }
