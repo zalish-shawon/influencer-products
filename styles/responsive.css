@@ -2,15 +2,16 @@
     nav {
         flex-direction: column;
         padding-left: 12px;
+        padding-right:0;
         width: 90%;
     }
-
     .banner-container {
         flex-direction: column-reverse;
     }
     .banner-img {
         margin-right: 0;
     }
+   
     .banner-text {
         text-align: center;
     }
@@ -24,6 +25,9 @@
     }
     .nav-links li a {
         margin-right: 10px;
+    }
+    .nav-links {
+        margin-right: 8px;
     }
     
 }
