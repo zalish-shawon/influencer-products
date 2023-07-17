@@ -33,6 +33,7 @@
      margin: auto;
      display: flex;
      align-items: center;
+     padding-bottom: 60px;
  }
 
  .banner-text h1 {
