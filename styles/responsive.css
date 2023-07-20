@@ -35,7 +35,11 @@
 
     .nav-links {
         margin-right: 8px;
+        margin-top: 25px;
         width: 100%;
+    }
+    .btn-primary {
+        margin-top: 25px;
     }
 
     .sponsor-logos {
@@ -45,14 +49,21 @@
     }
     .popular-container {
         grid-template-columns: 0fr;
+       
     }
+   
     .featured-container {
         flex-direction: column-reverse;
         padding-left: 0;
         gap:50px;
         text-align: center;
+        width: 79%;
+        margin: auto;
     }
     .featured-container p {
         width: 100%;
-    } 
+    }
+    .featured img {
+        width: 100%;
+    }
 }
